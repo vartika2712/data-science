@@ -1,0 +1,166 @@
+General Linear Model:
+
+1. What is the purpose of the General Linear Model (GLM)?
+2. What are the key assumptions of the General Linear Model?
+3. How do you interpret the coefficients in a GLM?
+4. What is the difference between a univariate and multivariate GLM?
+5. Explain the concept of interaction effects in a GLM.
+6. How do you handle categorical predictors in a GLM?
+7. What is the purpose of the design matrix in a GLM?
+8. How do you test the significance of predictors in a GLM?
+9. What is the difference between Type I, Type II, and Type III sums of squares in a GLM?
+10. Explain the concept of deviance in a GLM.
+
+Regression:
+
+11. What is regression analysis and what is its purpose?
+12. What is the difference between simple linear regression and multiple linear regression?
+13. How do you interpret the R-squared value in regression?
+14. What is the difference between correlation and regression?
+15. What is the difference between the coefficients and the intercept in regression?
+16. How do you handle outliers in regression analysis?
+17. What is the difference between ridge regression and ordinary least squares regression?
+18. What is heteroscedasticity in regression and how does it affect the model?
+19. How do you handle multicollinearity in regression analysis?
+20. What is polynomial regression and when is it used?
+
+Loss function:
+
+21. What is a loss function and what is its purpose in machine learning?
+22. What is the difference between a convex and non-convex loss function?
+23. What is mean squared error (MSE) and how is it calculated?
+24. What is mean absolute error (MAE) and how is it calculated?
+25. What is log loss (cross-entropy loss) and how is it calculated?
+26. How do you choose the appropriate loss function for a given problem?
+27. Explain the concept of regularization in the context of loss functions.
+28. What is Huber loss and how does it handle outliers?
+29. What is quantile loss and when is it used?
+30. What is the difference between squared loss and absolute loss?
+
+Optimizer (GD):
+
+31. What is an optimizer and what is its purpose in machine learning?
+32. What is Gradient Descent (GD) and how does it work?
+33. What are the different variations of Gradient Descent?
+34. What is the learning rate in GD and how do you choose an appropriate value?
+35. How does GD handle local optima in optimization problems?
+36. What is Stochastic Gradient Descent (SGD) and how does it differ from GD?
+37. Explain the concept of batch size in GD and its impact on training.
+38. What is the role of momentum in optimization algorithms?
+39. What is the difference between batch GD, mini-batch GD, and SGD?
+40. How does the learning rate affect the convergence of GD?
+
+Regularization:
+
+41. What is regularization and why is it used in machine learning?
+42. What is the difference between L1 and L2 regularization?
+43. Explain the concept of ridge regression and its role in regularization.
+44. What is the elastic net regularization and how does it combine L1 and L2 penalties?
+45. How does regularization help prevent overfitting in machine learning models?
+46. What is early stopping and how does it relate to regularization?
+47. Explain the concept of dropout regularization in neural networks.
+48. How do you choose the regularization parameter in a model?
+49. What
+
+ is the difference between feature selection and regularization?
+50. What is the trade-off between bias and variance in regularized models?
+
+SVM:
+
+51. What is Support Vector Machines (SVM) and how does it work?
+52. How does the kernel trick work in SVM?
+53. What are support vectors in SVM and why are they important?
+54. Explain the concept of the margin in SVM and its impact on model performance.
+55. How do you handle unbalanced datasets in SVM?
+56. What is the difference between linear SVM and non-linear SVM?
+57. What is the role of C-parameter in SVM and how does it affect the decision boundary?
+58. Explain the concept of slack variables in SVM.
+59. What is the difference between hard margin and soft margin in SVM?
+60. How do you interpret the coefficients in an SVM model?
+
+Decision Trees:
+
+61. What is a decision tree and how does it work?
+62. How do you make splits in a decision tree?
+63. What are impurity measures (e.g., Gini index, entropy) and how are they used in decision trees?
+64. Explain the concept of information gain in decision trees.
+65. How do you handle missing values in decision trees?
+66. What is pruning in decision trees and why is it important?
+67. What is the difference between a classification tree and a regression tree?
+68. How do you interpret the decision boundaries in a decision tree?
+69. What is the role of feature importance in decision trees?
+70. What are ensemble techniques and how are they related to decision trees?
+
+Ensemble Techniques:
+
+71. What are ensemble techniques in machine learning?
+72. What is bagging and how is it used in ensemble learning?
+73. Explain the concept of bootstrapping in bagging.
+74. What is boosting and how does it work?
+75. What is the difference between AdaBoost and Gradient Boosting?
+76. What is the purpose of random forests in ensemble learning?
+77. How do random forests handle feature importance?
+78. What is stacking in ensemble learning and how does it work?
+79. What are the advantages and disadvantages of ensemble techniques?
+80. How do you choose the optimal number of models in an ensemble?
+
+solutions.
+General Linear Model:
+
+1. The purpose of the General Linear Model (GLM) is to analyze the relationship between a dependent variable and one or more independent variables. It is a flexible framework used for various statistical analyses, including regression, analysis of variance (ANOVA), and analysis of covariance (ANCOVA).
+
+2. The key assumptions of the General Linear Model include:
+   - Linearity: The relationship between the dependent variable and the independent variables is linear.
+   - Independence: The observations are independent of each other.
+   - Homoscedasticity: The variability of the dependent variable is constant across all levels of the independent variables.
+   - Normality: The residuals (the differences between the observed and predicted values) are normally distributed.
+
+3. In a GLM, the coefficients represent the estimated effect of each independent variable on the dependent variable, holding other variables constant. The coefficients indicate the magnitude and direction of the relationship. A positive coefficient suggests a positive relationship, while a negative coefficient suggests a negative relationship. The coefficients can be used to make predictions and compare the relative importance of the independent variables.
+
+4. A univariate GLM involves only one dependent variable and one independent variable. It is used to analyze the relationship between a single predictor variable and a response variable. On the other hand, a multivariate GLM involves multiple dependent variables and one or more independent variables. It is used to analyze the relationship between multiple predictor variables and multiple response variables simultaneously.
+
+5. Interaction effects occur in a GLM when the effect of one independent variable on the dependent variable depends on the value of another independent variable. In other words, the relationship between the predictors and the response is not additive. Interaction effects are important as they can reveal more complex relationships and provide insights into how different factors interact to influence the outcome.
+
+6. Categorical predictors in a GLM are typically represented using dummy variables. Each category is converted into a binary variable, indicating the presence or absence of that category. The reference category is represented by all-zero values. These dummy variables are then included as independent variables in the GLM to analyze the effect of each category on the dependent variable.
+
+7. The design matrix in a GLM is a matrix that represents the relationship between the dependent variable and the independent variables. It is constructed by arranging the values of the independent variables in a structured format. Each row in the design matrix corresponds to an observation, and each column corresponds to a predictor variable. The design matrix is used to estimate the coefficients in the GLM.
+
+8. The significance of predictors in a GLM can be tested using hypothesis tests, such as t-tests or F-tests. The null hypothesis states that the coefficient for a predictor is zero, indicating no effect on the dependent variable. The p-value associated with the test indicates the probability of observing the estimated coefficient if the null hypothesis is true. If the p-value is below a chosen significance level (e.g., 0.05), the predictor is considered statistically significant.
+
+9. Type I, Type II, and Type III sums of squares are different methods for partitioning the total sum of squares (SS) into components associated with different factors in a GLM. The choice of which type of sums of squares to use depends on the research question and the experimental design. Type I SS sequentially tests the significance of each predictor variable in the order they are entered into the model. Type II SS adjusts for the presence of other predictors in the model and tests each predictor's unique contribution. Type III SS tests the significance of each predictor after adjusting for the other predictors in the model.
+
+10. Deviance is a measure of lack of fit in a GLM. It quantifies the discrepancy between the observed data and the model's predicted values. In a GLM, deviance is calculated as minus twice the log-likelihood of the model. Lower deviance values indicate a better fit of the model to the data. Deviance can be used for model comparison, such as comparing nested models or evaluating the goodness-of-fit of the overall model. It is commonly used in logistic regression, where it is known as the deviance residual.
+
+Regression:
+
+11. Regression analysis is a statistical method used to model and analyze the relationship between a dependent variable and one or more independent variables. Its purpose is to understand how changes in the independent variables are associated with changes in the dependent variable. Regression analysis allows for prediction, estimation of the strength and direction of the relationship, and identification of significant predictors.
+
+12. Simple linear regression involves a single dependent variable and a single independent variable. It models the linear relationship between the two variables using a straight line. Multiple linear regression, on the other hand, involves a single dependent variable and multiple independent variables. It models the linear relationship between the dependent variable and a combination of independent variables.
+
+13. R-squared (coefficient of determination) is a measure of the proportion of the total variation in the dependent variable that is explained by the independent variables in a regression model. It ranges from 0 to 1, where 0 indicates that the independent variables do not explain any of the variation, and 1 indicates that they explain all the variation. It is interpreted as the percentage of the dependent variable's variability that can be accounted for by the independent variables.
+
+14. Correlation measures the strength and direction of the linear relationship between two variables, while regression analyzes the relationship between a dependent variable and one or more independent variables. Correlation does not imply causation, whereas regression allows for causal inference when appropriate. Regression provides additional information, such as the magnitude and significance of the relationships, the ability to control for confounding factors, and the ability to make predictions.
+
+15. In regression, the coefficients (also known as regression coefficients or regression weights) represent the estimated effect of the independent variables on the dependent variable. They indicate the change in the dependent variable associated with a one-unit change in the corresponding independent variable, holding other variables constant. The intercept (or constant term) represents the expected value of the dependent variable when all independent variables are zero.
+
+16. Outliers in regression analysis are extreme observations that deviate significantly from the overall pattern of the data. They can have a disproportionate impact on the regression model by pulling the estimated line of best fit towards them. Handling outliers depends on the cause and context of the outliers. Options include removing the outliers if they are data entry errors or influential observations, transforming the data to reduce the impact of outliers, or using robust regression techniques that are less sensitive to outliers.
+
+17. Ordinary least squares (OLS) regression is a regression method that aims to minimize the sum of the squared differences between the observed and predicted values. It assumes that the errors (residuals) are normally distributed and have constant variance (homoscedasticity). Ridge regression is a regularization technique that adds a penalty term to the OLS objective function to control the complexity of the model and reduce the impact of multicollinearity. It is particularly useful when dealing with multicollinear predictors.
+
+18. Heteroscedasticity in regression occurs when the variability of the residuals (errors) is not constant across all levels of the independent variables. It violates the assumption of homoscedasticity in the regression model. Heteroscedasticity can affect the estimated standard errors, leading to incorrect p-values and confidence intervals. To address heteroscedasticity, one can transform the variables, use weighted least squares regression, or employ robust regression techniques that are not sensitive to heteroscedasticity.
+
+19. Multicollinearity in regression occurs when two or more independent variables are highly correlated
+
+ with each other. It can cause issues in regression analysis, as it becomes difficult to separate the individual effects of the correlated variables on the dependent variable. To handle multicollinearity, one can identify and remove correlated predictors, perform dimensionality reduction techniques (e.g., principal component analysis), or use regularization techniques such as ridge regression or LASSO regression.
+
+20. Polynomial regression is a form of regression analysis where the relationship between the dependent variable and the independent variables is modeled as an nth-degree polynomial. It is used when the relationship between the variables is nonlinear and can be better approximated by a curve. Polynomial regression allows for more flexibility in capturing complex relationships compared to simple linear regression. The appropriate degree of the polynomial can be determined through techniques such as cross-validation or hypothesis testing.
+
+
+
+
+
+
+
+
+
+
