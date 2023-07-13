@@ -1,0 +1,341 @@
+1. Scenario: A company wants to analyze the sales performance of its products in different regions. They have collected the following data:
+   Region A: [10, 15, 12, 8, 14]
+   Region B: [18, 20, 16, 22, 25]
+   Calculate the mean sales for each region.
+
+2. Scenario: A survey is conducted to measure customer satisfaction on a scale of 1 to 5. The data collected is as follows:
+   [4, 5, 2, 3, 5, 4, 3, 2, 4, 5]
+   Calculate the mode of the survey responses.
+
+3. Scenario: A company wants to compare the salaries of two departments. The salary data for Department A and Department B are as follows:
+   Department A: [5000, 6000, 5500, 7000]
+   Department B: [4500, 5500, 5800, 6000, 5200]
+   Calculate the median salary for each department.
+
+4. Scenario: A data analyst wants to determine the variability in the daily stock prices of a company. The data collected is as follows:
+   [25.5, 24.8, 26.1, 25.3, 24.9]
+   Calculate the range of the stock prices.
+
+5. Scenario: A study is conducted to compare the performance of two different teaching methods. The test scores of the students in each group are as follows:
+   Group A: [85, 90, 92, 88, 91]
+   Group B: [82, 88, 90, 86, 87]
+   Perform a t-test to determine if there is a significant difference in the mean scores between the two groups.
+
+6. Scenario: A company wants to analyze the relationship between advertising expenditure and sales. The data collected is as follows:
+   Advertising Expenditure (in thousands): [10, 15, 12, 8, 14]
+   Sales (in thousands): [25, 30, 28, 20, 26]
+   Calculate the correlation coefficient between advertising expenditure and sales.
+
+7. Scenario: A survey is conducted to measure the heights of a group of people. The data collected is as follows:
+   [160, 170, 165, 155, 175, 180, 170]
+   Calculate the standard deviation of the heights.
+
+8. Scenario: A company wants to analyze the relationship between employee tenure and job satisfaction. The data collected is as follows:
+   Employee Tenure (in years): [2, 3, 5, 4, 6, 2, 4]
+   Job Satisfaction (on a scale of 1 to 10): [7, 8, 6, 9, 5, 7, 6]
+   Perform a linear regression analysis to predict job satisfaction based on employee tenure.
+
+9. Scenario: A study is conducted to compare the effectiveness of two different medications. The recovery times of the patients in each group are as follows:
+   Medication A: [10, 12, 14, 11, 13]
+   Medication B: [15, 17, 16, 14, 18]
+   Perform an analysis of variance (ANOVA) to determine if there is a significant difference in the mean recovery times between the two medications.
+
+10. Scenario: A company wants to analyze customer feedback ratings on a scale of 1 to 10. The data collected is
+
+ as follows:
+    [8, 9, 7, 6, 8, 10, 9, 8, 7, 8]
+    Calculate the 75th percentile of the feedback ratings.
+
+11. Scenario: A quality control department wants to test the weight consistency of a product. The weights of a sample of products are as follows:
+    [10.2, 9.8, 10.0, 10.5, 10.3, 10.1]
+    Perform a hypothesis test to determine if the mean weight differs significantly from 10 grams.
+
+12. Scenario: A company wants to analyze the click-through rates of two different website designs. The number of clicks for each design is as follows:
+    Design A: [100, 120, 110, 90, 95]
+    Design B: [80, 85, 90, 95, 100]
+    Perform a chi-square test to determine if there is a significant difference in the click-through rates between the two designs.
+
+13. Scenario: A survey is conducted to measure customer satisfaction with a product on a scale of 1 to 10. The data collected is as follows:
+    [7, 9, 6, 8, 10, 7, 8, 9, 7, 8]
+    Calculate the 95% confidence interval for the population mean satisfaction score.
+
+14. Scenario: A company wants to analyze the effect of temperature on product performance. The data collected is as follows:
+    Temperature (in degrees Celsius): [20, 22, 23, 19, 21]
+    Performance (on a scale of 1 to 10): [8, 7, 9, 6, 8]
+    Perform a simple linear regression to predict performance based on temperature.
+
+15. Scenario: A study is conducted to compare the preferences of two groups of participants. The preferences are measured on a Likert scale from 1 to 5. The data collected is as follows:
+    Group A: [4, 3, 5, 2, 4]
+    Group B: [3, 2, 4, 3, 3]
+    Perform a Mann-Whitney U test to determine if there is a significant difference in the median preferences between the two groups.
+
+16. Scenario: A company wants to analyze the distribution of customer ages. The data collected is as follows:
+    [25, 30, 35, 40, 45, 50, 55, 60, 65, 70]
+    Calculate the interquartile range (IQR) of the ages.
+
+17. Scenario: A study is conducted to compare the performance of three different machine learning algorithms. The accuracy scores for each algorithm are as follows:
+    Algorithm A: [0.85, 0.80, 0.82, 0.87, 0.83]
+    Algorithm B: [0.78, 0.82, 0.84, 0.80, 0.79]
+    Algorithm C: [0.90, 0.88, 0.89, 0.86, 0.87]
+    Perform a Kruskal-Wallis test to determine if there is a significant difference in the median accuracy scores between the algorithms.
+
+18. Scenario: A company wants to analyze the effect of price on sales. The data collected is as follows:
+    Price (in dollars): [10, 15, 12, 8, 14]
+    Sales: [100, 80, 90, 110, 95]
+    Perform a simple linear regression to predict
+
+ sales based on price.
+
+19. Scenario: A survey is conducted to measure the satisfaction levels of customers with a new product. The data collected is as follows:
+    [7, 8, 9, 6, 8, 7, 9, 7, 8, 7]
+    Calculate the standard error of the mean satisfaction score.
+
+20. Scenario: A company wants to analyze the relationship between advertising expenditure and sales. The data collected is as follows:
+    Advertising Expenditure (in thousands): [10, 15, 12, 8, 14]
+    Sales (in thousands): [25, 30, 28, 20, 26]
+    Perform a multiple regression analysis to predict sales based on advertising expenditure.
+
+1. To calculate the mean sales for each region, you need to sum up the sales values in each region and then divide by the number of data points in that region.
+
+For Region A:
+Sales = [10, 15, 12, 8, 14]
+Mean Sales for Region A = (10 + 15 + 12 + 8 + 14) / 5 = 59 / 5 = 11.8
+
+For Region B:
+Sales = [18, 20, 16, 22, 25]
+Mean Sales for Region B = (18 + 20 + 16 + 22 + 25) / 5 = 101 / 5 = 20.2
+
+So, the mean sales for Region A is 11.8 and for Region B is 20.2.
+
+2. To calculate the mode of the survey responses, you need to determine the value that appears most frequently in the data.
+
+Survey responses = [4, 5, 2, 3, 5, 4, 3, 2, 4, 5]
+Mode of the survey responses = 4 (since 4 appears most frequently)
+
+Therefore, the mode of the survey responses is 4.
+
+3. To calculate the median salary for each department, you need to arrange the salary data in each department in ascending order and then find the middle value.
+
+For Department A:
+Salaries = [5000, 6000, 5500, 7000]
+Median Salary for Department A = 5500
+
+For Department B:
+Salaries = [4500, 5500, 5800, 6000, 5200]
+Median Salary for Department B = 5500
+
+So, the median salary for Department A and Department B is 5500.
+
+4. To calculate the range of the stock prices, you need to find the difference between the maximum and minimum values in the data.
+
+Stock prices = [25.5, 24.8, 26.1, 25.3, 24.9]
+Range of stock prices = maximum value - minimum value
+Range = 26.1 - 24.8 = 1.3
+
+Therefore, the range of the stock prices is 1.3.
+
+5. To perform a t-test and determine if there is a significant difference in the mean scores between Group A and Group B, you need to calculate the t-value and compare it with the critical t-value at a certain significance level (e.g., 0.05).
+
+First, calculate the mean and standard deviation for each group:
+
+Group A: [85, 90, 92, 88, 91]
+Mean score for Group A = (85 + 90 + 92 + 88 + 91) / 5 = 446 / 5 = 89.2
+Standard deviation for Group A = sqrt(((85-89.2)^2 + (90-89.2)^2 + (92-89.2)^2 + (88-89.2)^2 + (91-89.2)^2) / (5-1)) = sqrt(18.8) ≈ 4.333
+
+Group B: [82, 88, 90, 86, 87]
+Mean score for Group B = (82 + 88 + 90 + 86 + 87) / 5 = 433 / 5 = 86.6
+Standard deviation for Group B = sqrt(((82-86.6)^2 + (88-86.6)^2 + (90-86.6)^2 + (86-86.6)^2 + (87-86.6)^2) / (5-1)) = sqrt(4.8) ≈ 2.190
+
+Next, calculate the t-value using the formula:
+t = (mean(Group A) - mean(Group B)) / sqrt((sd(Group A)^2/n1) + (sd(Group B)^2/n2))
+
+n1 = number of observations in Group A
+n2 = number of observations in Group B
+
+t = (89.2 - 86.6) / sqrt((4.333^2/5) + (2.190^2/5))
+t ≈ 2.6
+
+Finally, compare the t-value with the critical t-value at a certain significance level and degrees of freedom (n1 + n2 - 2) to determine if there is a significant difference.
+
+The critical t-value can be obtained from a t-distribution table or using statistical software. If the calculated t-value exceeds the critical t-value, then there is a significant difference between the means of the two groups.
+
+6. To calculate the correlation coefficient between advertising expenditure and sales, you can use the Pearson correlation coefficient formula. However, before calculating the correlation coefficient, it's essential to standardize the variables (subtract the mean and divide by the standard deviation) to remove the scale effect.
+
+Advertising Expenditure (in thousands): [10, 15, 12, 8, 14]
+Sales (in thousands): [25, 30, 28, 20, 26]
+
+Step 1: Standardize the variables
+Standardized Advertising Expenditure = [(10-12.8), (15-12.8), (12-12.8), (8-12.8), (14-12.8)] = [-2.8, 2.2, -0.8, -4.8, 1.2]
+Standardized Sales = [(25-25.8), (30-25.8), (28-25.8), (20-25.8), (26-25.8)] = [-0.8, 4.2, 2.2, -5.8, 0.2]
+
+Step 2: Calculate the correlation coefficient (Pearson correlation coefficient)
+Correlation coefficient = sum((Standardized Advertising Expenditure * Standardized Sales)) / (n-1)
+
+Correlation coefficient = (-2.8 * -0.8 + 2.2 * 4.2 + -0.8 * 2.2 + -4.8 * -5.8 + 1.2 * 0.2) / (5-1)
+Correlation coefficient ≈ 0.863
+
+Therefore, the correlation coefficient between advertising expenditure and sales is approximately 0.863, indicating a strong positive correlation.
+
+7. To calculate the standard deviation of the heights, you can use the formula:
+
+Standard deviation = sqrt(sum((x - mean)^2) / n)
+
+Heights = [160, 170, 165, 155, 175, 180, 170]
+Mean height = (160 + 170 + 165 + 155 + 175 + 180 + 170) / 7 = 1175 / 7 ≈ 167.86
+
+Standard deviation = sqrt(((160-167.86)^2 + (170-167.86)^2 + (165-167.86)^2 + (155-167.86)^2 + (175-167.86)^2 + (180-167.86)^2 + (170-167.86)^2) / 7)
+Standard deviation ≈ 8.28
+
+Therefore, the standard deviation of the heights is approximately 8
+
+.28.
+
+8. To perform a linear regression analysis and predict job satisfaction based on employee tenure, you can use the least squares method to fit a straight line to the data.
+
+Employee Tenure (in years): [2, 3, 5, 4, 6, 2, 4]
+Job Satisfaction (on a scale of 1 to 10): [7, 8, 6, 9, 5, 7, 6]
+
+Step 1: Calculate the means for both variables
+Mean of Employee Tenure = (2 + 3 + 5 + 4 + 6 + 2 + 4) / 7 = 26 / 7 ≈ 3.71
+Mean of Job Satisfaction = (7 + 8 + 6 + 9 + 5 + 7 + 6) / 7 = 48 / 7 ≈ 6.86
+
+Step 2: Calculate the deviations from the means for both variables
+Deviations for Employee Tenure = [2-3.71, 3-3.71, 5-3.71, 4-3.71, 6-3.71, 2-3.71, 4-3.71]
+Deviations for Job Satisfaction = [7-6.86, 8-6.86, 6-6.86, 9-6.86, 5-6.86, 7-6.86, 6-6.86]
+
+Step 3: Calculate the products of the deviations for both variables
+Products of deviations = [(2-3.71) * (7-6.86), (3-3.71) * (8-6.86), (5-3.71) * (6-6.86), (4-3.71) * (9-6.86), (6-3.71) * (5-6.86), (2-3.71) * (7-6.86), (4-3.71) * (6-6.86)]
+
+Step 4: Calculate the sum of the products of deviations
+Sum of products = sum(Products of deviations)
+
+Step 5: Calculate the sum of the squared deviations for Employee Tenure
+Sum of squared deviations for Employee Tenure = sum((Employee Tenure - Mean of Employee Tenure)^2)
+
+Step 6: Calculate the sum of the squared deviations for Job Satisfaction
+Sum of squared deviations for Job Satisfaction = sum((Job Satisfaction - Mean of Job Satisfaction)^2)
+
+Step 7: Calculate the slope (b) of the regression line
+Slope (b) = Sum of products / Sum of squared deviations for Employee Tenure
+
+Step 8: Calculate the y-intercept (a) of the regression line
+y-intercept (a) = Mean of Job Satisfaction - (Slope * Mean of Employee Tenure)
+
+Step 9: Write the equation of the regression line
+Regression line equation: Job Satisfaction = y-intercept (a) + Slope (b) * Employee Tenure
+
+Performing these calculations will provide you with the equation of the regression line, allowing you to predict job satisfaction based on employee tenure.
+
+9. To perform an analysis of variance (ANOVA) and determine if there is a significant difference in the mean recovery times between Medication A and Medication B, you can use a one-way ANOVA test. This test compares the means of multiple groups to assess whether there is a significant difference between them.
+
+First, calculate the mean recovery time for each medication group:
+
+Medication A: [10, 12, 14, 11, 13]
+Mean recovery time for Medication A = (10 + 12 + 14 + 11 + 13) / 5 = 60 / 5 = 12
+
+Medication B: [15, 17, 16, 14, 18]
+Mean recovery time for Medication B = (15 + 17 + 16 + 14 + 18) / 5 = 80 / 5 = 16
+
+Next, calculate the sum of squares between groups (SSB) and the sum of squares within groups (SSW):
+
+SSB = (n1 * (mean1 - overall_mean)^2) + (n2 * (mean2 - overall_mean)^2)
+SSB = (5 * (12 - 14)^2) + (5 * (16 - 14)^2)
+SSB = 20 + 20
+SSB = 40
+
+SSW = (n1 - 1) * variance1 + (n2 - 1) * variance2
+SSW = (4 * ((10 - 12)^2 + (12 - 12)^2 + (14 - 12)^2 + (11 - 12)^2 + (13 - 12)^2)) + (4 * ((15 - 16)^2 + (17 - 16)^2 + (16 - 16)^2 + (14 - 16)^2 + (18 - 16)^2))
+SSW = (4 * (4 + 0 + 4 + 1 + 1)) + (4 * (1 + 1 + 0 + 4 + 4))
+SSW = (4 * 10) + (4 * 10)
+SSW = 40 + 40
+SSW = 80
+
+Then, calculate the degrees of freedom between groups (dfB) and the degrees of freedom within groups (dfW):
+
+dfB = number of groups - 1
+dfB = 2 - 1
+dfB = 1
+
+dfW = total number of observations - number of groups
+dfW = 10 - 2
+dfW = 8
+
+Next, calculate the mean square between groups (MSB) and the mean square within groups (MSW):
+
+MSB = SSB / dfB
+MSB = 40 / 1
+MSB = 40
+
+MSW = SSW / dfW
+MSW = 80 / 8
+MSW = 10
+
+Finally, calculate the F-value:
+
+F = MSB / MSW
+F = 40 / 10
+F = 4
+
+Compare the calculated F-value with the critical F-value at a certain significance level and degrees of freedom (dfB, dfW) to determine if there is a significant difference. If the calculated F-value exceeds the critical F-value, then there is a significant difference in the mean recovery times between the two medications.
+
+10. To calculate the 75th percentile of the feedback ratings, you need to arrange the ratings in ascending order and find the value that corresponds to the 75th percentile.
+
+Feedback ratings = [8, 9, 7, 6, 8, 10, 9, 8, 7, 8]
+
+Step 1: Sort the ratings in ascending order
+Sorted ratings = [6, 7, 7, 8, 8, 8, 8, 9, 9, 10]
+
+Step 2: Calculate the index for the 75th percentile
+Index = (75 / 100) * (n + 1)
+Index = (0.75) * (10 + 1)
+Index
+
+ = 0.75 * 11
+Index = 8.25
+
+Step 3: Determine the value at the calculated index
+The 75th percentile falls between the 8th and 9th values in the sorted ratings.
+
+75th percentile = average of the 8th and 9th values
+75th percentile = (8 + 9) / 2
+75th percentile = 17 / 2
+75th percentile = 8.5
+
+Therefore, the 75th percentile of the feedback ratings is 8.5.
+
+11. To perform a hypothesis test and determine if the mean weight significantly differs from 10 grams, you can use a one-sample t-test. This test compares the sample mean to a known or hypothesized population mean.
+
+Weights = [10.2, 9.8, 10.0, 10.5, 10.3, 10.1]
+
+Step 1: Calculate the sample mean
+Sample mean = sum(Weights) / number of observations
+Sample mean = (10.2 + 9.8 + 10.0 + 10.5 + 10.3 + 10.1) / 6
+Sample mean = 61.9 / 6
+Sample mean ≈ 10.317
+
+Step 2: Calculate the sample standard deviation
+Sample standard deviation = sqrt(sum((Weight - Sample mean)^2) / (number of observations - 1))
+Sample standard deviation = sqrt(((10.2 - 10.317)^2 + (9.8 - 10.317)^2 + (10.0 - 10.317)^2 + (10.5 - 10.317)^2 + (10.3 - 10.317)^2 + (10.1 - 10.317)^2) / (6 - 1))
+Sample standard deviation ≈ sqrt(0.01589) ≈ 0.126
+
+Step 3: Set up the null and alternative hypotheses
+Null hypothesis (H0): The mean weight is equal to 10 grams (μ = 10)
+Alternative hypothesis (Ha): The mean weight is not equal to 10 grams (μ ≠ 10)
+
+Step 4: Calculate the t-value
+t-value = (Sample mean - Hypothesized mean) / (Sample standard deviation / sqrt(number of observations))
+t-value = (10.317 - 10) / (0.126 / sqrt(6))
+t-value ≈ 2.579
+
+Step 5: Determine the critical t-value at a certain significance level and degrees of freedom (number of observations - 1). Compare the calculated t-value with the critical t-value to determine if the difference in the mean weight is significant.
+
+If the calculated t-value exceeds the critical t-value (in a two-tailed test), then the mean weight significantly differs from 10 grams.
+
+
+
+
+
+
+
+
+
